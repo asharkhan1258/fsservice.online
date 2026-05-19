@@ -1,0 +1,320 @@
+/* Document Section */
+.fintax-doc-section{
+padding:60px 0;
+background:#f7f9fc;
+}
+
+.fintax-doc-section .fintax-doc-item{
+background:#fff;
+padding:18px 20px;
+border-radius:10px;
+display:flex;
+align-items:center;
+gap:12px;
+border:1px solid #e6eaf0;
+}
+
+.fintax-doc-section i{
+color:#153b66;
+font-size:18px;
+}
+
+.fintax-doc-section span{
+font-size:14px;
+color:#4a5a70;
+}
+
+
+/* Success Section */
+.fintax-success-section{
+padding:80px 0;
+}
+
+.fintax-success-section h2{
+font-weight:700;
+color:#153b66;
+margin-bottom:10px;
+}
+
+.fintax-success-sub{
+color:#6c7a89;
+max-width:700px;
+margin:auto;
+}
+
+.fintax-success-card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+border:1px solid #e6eaf0;
+height:100%;
+}
+
+.fintax-success-card h5{
+margin-bottom:15px;
+font-weight:600;
+}
+
+.fintax-success-card .label{
+color:#e11d48;
+font-weight:600;
+margin-bottom:5px;
+}
+
+.fintax-success-card p{
+font-size:14px;
+color:#6c7a89;
+margin-bottom:10px;
+}
+
+
+    /* Hero Section */
+.fintax-hero-section {
+    padding: 40px 0;
+}
+
+.fintax-hero-section .fintax-hero-box {
+    background: linear-gradient(135deg, #143d6b, #1f4f86);
+    border-radius: 30px;
+    background-image: url(https://us.fintaxsupportlimited.com/wp-content/uploads/2025/09/pexels-photo-5324291-scaled.jpeg);
+    background-size: cover;
+    background-position: left;
+    padding: 60px 50px;
+    overflow: hidden;
+}
+
+.fintax-hero-section .fintax-hero-content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.fintax-hero-section .fintax-hero-content p {
+    color: #d6e2f0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    max-width: 520px;
+}
+
+.fintax-hero-section .fintax-hero-btn {
+    display: inline-block;
+    background: #f5a200;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.fintax-hero-section .fintax-hero-btn:hover {
+    background: #e69500;
+    color: #fff;
+}
+
+.fintax-hero-section .fintax-hero-image img {
+    width: 100%;
+    opacity: 0.35;
+}
+
+
+/* Why Section */
+.fintax-why-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.fintax-why-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #163b63;
+    margin-bottom: 20px;
+}
+
+.fintax-why-section p {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    color: #6c7a89;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.fintax-process-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #163b63;
+    margin-bottom: 20px;
+}
+
+.fintax-process-section p {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    color: #6c7a89;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.fintax-doc-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #163b63;
+    margin-bottom: 20px;
+}
+
+.fintax-doc-section p {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    color: #6c7a89;
+    font-size: 16px;
+    line-height: 1.7;
+}
+/* Process Section */
+.fintax-process-section{
+padding:60px 0;
+background:#f7f9fc;
+}
+
+.fintax-process-section .fintax-process-card{
+background:#fff;
+padding:30px;
+border-radius:12px;
+border:1px solid #e6eaf0;
+height:100%;
+position:relative;
+}
+
+.fintax-process-section .fintax-number{
+font-size:24px;
+font-weight:700;
+color:#153b66;
+display:block;
+margin-bottom:10px;
+}
+
+.fintax-process-section .fintax-icon{
+position:absolute;
+right:25px;
+top:25px;
+color:#e11d48;
+font-size:22px;
+}
+
+.fintax-process-section h5{
+font-weight:600;
+margin-bottom:10px;
+}
+
+.fintax-process-section p{
+color:#6c7a89;
+font-size:14px;
+}
+
+
+/* Partner Section */
+.fintax-partner-section{
+padding:80px 0;
+}
+
+.fintax-partner-section h2{
+font-size:32px;
+font-weight:700;
+color:#153b66;
+max-width:800px;
+margin:0 auto 15px;
+}
+
+.fintax-partner-section .fintax-sub{
+color:#6c7a89;
+max-width:700px;
+margin:auto;
+}
+
+.fintax-partner-section .fintax-partner-card{
+padding:20px;
+}
+
+.fintax-partner-section i{
+font-size:36px;
+color:#153b66;
+margin-bottom:15px;
+display:block;
+}
+
+.fintax-partner-section p{
+font-size:14px;
+color:#6c7a89;
+}
+
+
+/* FAQ */
+
+.faq {
+  max-width: 600px;
+  margin: auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-question {
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #f5f5f5;
+}
+
+.faq-answer {
+  padding: 15px;
+  display: none;
+}
+
+/* CTA */
+.cta-section {
+    background: #f8fafc;
+}
+
+.cta-title {
+    font-weight: 700;
+    color: #0f2c4c;
+}
+
+.cta-text {
+    max-width: 800px;
+    margin: auto;
+    color: #6c7a89;
+}
+
+.btn-primary {
+    background: #0d3b66;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #092c4c;
+}
+
+.cta-features span {
+    margin: 0 10px;
+    color: #6c7a89;
+    font-size: 14px;
+}
+/* Responsive */
+@media (max-width:991px) {
+
+.fintax-hero-section .fintax-hero-content h1 {
+    font-size: 40px;
+}
+
+.fintax-hero-section .fintax-hero-box {
+    padding: 40px 25px;
+}
+
+.fintax-hero-section .fintax-hero-image {
+    margin-top: 30px;
+}
+
+}

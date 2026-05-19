@@ -1,0 +1,634 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+
+/* topbar */
+
+.topbar{
+background:#27b0a6;
+color:#fff;
+font-size:14px;
+padding:8px 0;
+}
+
+.top-social{
+padding-top: 18px;
+cursor:pointer;
+}
+
+
+
+    .pricing-section {
+      padding: 80px 0;
+    }
+
+    .section-title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 20px;
+      padding: 30px 20px;
+      border: 2px solid #184b6b;
+      transition: 0.4s;
+      background: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+
+    .price {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 15px 0;
+      color: #333;
+    }
+
+    .card ul li {
+      margin: 10px 0;
+      color: #555;
+    }
+
+    .btn-custom {
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-gradient {
+      background: linear-gradient(45deg, #ff7a00, #ffb347);
+      border: none;
+      color: #fff;
+    }
+
+    .btn-gradient:hover {
+      opacity: 0.9;
+    }
+
+    /* Trial Highlight */
+    .trial {
+      border: 2px solid #ff7a00;
+      background: linear-gradient(135deg, #fff7f0, #fff);
+    }
+
+    .badge-trial {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: #ff7a00;
+      color: #fff;
+      font-size: 12px;
+      padding: 6px 12px;
+      border-radius: 20px;
+    }
+
+    /* Premium Highlight */
+    .premium {
+      border: 2px solid #4f46e5;
+      background: linear-gradient(135deg, #eef2ff, #ffffff);
+    }
+
+    .badge-popular {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: #4f46e5;
+      color: #fff;
+      font-size: 12px;
+      padding: 6px 12px;
+      border-radius: 20px;
+    }
+
+
+/* navbar */
+
+.main-nav{
+background:#f3f5f6;
+padding:15px 0;
+}
+
+.navbar-nav .nav-link{
+margin:0 15px;
+font-weight:600;
+color:#444;
+}
+
+.nav-buttons .btn{
+margin-left:10px;
+}
+
+.btn-signin{
+background:#2fb3a7;
+color:#fff;
+padding:8px 18px;
+border-radius:8px;
+}
+
+.btn-book{
+background:linear-gradient(90deg,#27c7a7,#48e5a7);
+color:#fff;
+padding:8px 18px;
+border-radius:25px;
+}
+
+
+/* hero section */
+
+.hero-section{
+background:linear-gradient(90deg,#2fb3a7,#4cb8c4);
+padding:0px 0;
+color:#fff;
+}
+
+.hero-text h1{
+font-size:65px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero-sub{
+font-size:30px;
+margin-bottom:25px;
+max-width:600px;
+}
+
+.hero-list span{
+margin-right:20px;
+font-weight:500;
+}
+
+.hero-buttons{
+margin-top:30px;
+}
+
+.btn-primary-custom{
+background:linear-gradient(90deg,#2ee59d,#39d3a4);
+color:#fff;
+padding:14px 28px;
+border-radius:30px;
+font-weight:600;
+margin-right:10px;
+}
+
+.btn-outline-custom{
+border:2px solid rgba(255,255,255,0.6);
+color:#fff;
+padding:12px 26px;
+border-radius:30px;
+}
+
+.hero-img{
+max-width:100%;
+}
+
+.info-cards{
+padding:70px 0;
+background:#f3f3f3;
+}
+
+.info-card{
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+height:100%;
+}
+
+.card-img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.logo-box{
+background:#cfe3ee;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:220px;
+}
+
+.logo-box h3{
+font-weight:700;
+color:#184b6b;
+}
+
+.logo-box p{
+font-style:italic;
+color:#184b6b;
+}
+
+.info-card{
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+height:100%;
+display:flex;
+flex-direction:column;
+}
+
+.card-body{
+padding:25px;
+display:flex;
+flex-direction:column;
+height:auto;
+}
+
+.card-btn{
+background:linear-gradient(90deg,#38b6a8,#2aa79c);
+color:#fff;
+padding:12px 30px;
+border-radius:8px;
+font-size:13px;
+display:inline-block;
+font-weight:600;
+margin-top:auto; /* button bottom par chala jayega */
+}
+
+.card-body p{
+color:#666;
+font-size:18px;
+min-height:70px;
+}
+
+
+.small-btn{
+display:block;
+width:80%;
+margin:10px auto;
+}
+
+
+
+.service-section{
+padding:70px 0;
+background-color: #eef7fb;
+}
+
+.service-card{
+background:#fff;
+padding:40px 25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+height:100%;
+transition:0.3s;
+}
+
+.service-card:hover{
+transform:translateY(-5px);
+}
+
+.icon-box{
+width:70px;
+height:70px;
+margin:0 auto 20px;
+background:#e9f6f5;
+border-radius:15px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:26px;
+color:#2bb3a8;
+}
+
+.service-card h4{
+font-weight:700;
+font-size:20px;
+margin-bottom:15px;
+color:#2f3b4a;
+}
+
+.service-card p{
+font-size:15px;
+color:#6c7a89;
+margin-bottom:20px;
+}
+
+.appointment-btn{
+background:#2bb3a8;
+color:#fff;
+padding:12px 22px;
+border-radius:10px;
+font-weight:600;
+}
+
+.appointment-btn:hover{
+background:#229e94;
+color:#fff;
+}
+
+
+.guarantee-section{
+padding:80px 0;
+background:#f5f7f8;
+}
+
+.heading h2{
+font-size:42px;
+font-weight:700;
+color:#1fa79b;
+}
+
+.heading h3{
+font-size:32px;
+color:#1fa79b;
+margin-top:10px;
+}
+
+.person-img img{
+border-radius:20px;
+width: 50%;
+}
+
+.accordion-item{
+border-radius:15px;
+margin-bottom:15px;
+border:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+overflow:hidden;
+}
+
+.accordion-button{
+font-weight:600;
+color:#1fa79b;
+background:#fff;
+}
+
+.active-item .accordion-button{
+background:#1fa79b;
+}
+
+.accordion-body{
+background:#fff;
+padding:25px;
+}
+
+.acc-img{
+width:120px;
+}
+
+.view-btn{
+background:#2bb3a8;
+color:#fff;
+padding:10px 20px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+}
+
+.view-btn:hover{
+background:#229e94;
+color:#fff;
+}
+
+.testimonial-section{
+padding:90px 0;
+background:linear-gradient(90deg,#d6e3ea,#eef4f7);
+}
+
+.title{
+font-size:42px;
+font-weight:700;
+color:#2f6b8a;
+}
+
+.subtitle{
+color:#6c7a89;
+margin-top:10px;
+}
+
+.feedback-btn{
+background:#1fa79b;
+color:#fff;
+padding:12px 22px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+.feedback-btn i{
+margin-right:8px;
+}
+
+.rating-box{
+width:220px;
+margin:40px auto;
+background:#e8f2f4;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.rating-box h3{
+font-size:40px;
+font-weight:700;
+color:#2f6b8a;
+}
+
+.stars{
+color:#18a999;
+font-size:20px;
+margin-bottom:10px;
+}
+
+.stars.small{
+font-size:14px;
+}
+
+.testimonial-card{
+background:#fff;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+height:100%;
+}
+
+.user{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:15px;
+}
+
+.avatar{
+width:45px;
+height:45px;
+background:#2f6b8a;
+color:#fff;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.review{
+color:#5c6b78;
+font-style:italic;
+margin-top:15px;
+}
+
+.date{
+display:block;
+text-align:right;
+margin-top:20px;
+font-size:14px;
+color:#7a8b97;
+}
+
+
+/* CTA */
+
+.cta-section{
+
+background:#eee;
+padding:60px 20px;
+border-radius:20px;
+
+}
+
+.cta-section h2{
+
+font-weight:700;
+color:#2d4a6b;
+
+}
+
+.cta-section p{
+
+color:#666;
+margin-top:10px;
+
+}
+
+
+.btn-outline-custom{
+
+border:2px solid #2c6cb8;
+padding:10px 26px;
+border-radius:30px;
+color:#2c6cb8;
+font-weight:600;
+
+}
+
+
+
+/* FOOTER */
+
+.footer-section{
+
+background:linear-gradient(120deg,#0f2a3a,#1c3d52);
+color:white;
+padding:70px 0;
+
+}
+
+.footer-title{
+
+color:#1fd1c1;
+margin-bottom:25px;
+font-weight:700;
+
+}
+
+.footer-contact p{
+
+margin-bottom:12px;
+font-size:14px;
+
+}
+
+.footer-contact i{
+
+color:#1fd1c1;
+margin-right:10px;
+
+}
+
+.social-icons i{
+
+background:#1c3d52;
+padding:10px;
+border-radius:6px;
+margin-right:10px;
+cursor:pointer;
+
+}
+
+.hours{
+
+list-style:none;
+padding:0;
+
+}
+
+.hours li{
+
+background:#243f52;
+margin-bottom:10px;
+padding:10px 15px;
+border-radius:8px;
+display:flex;
+justify-content:space-between;
+
+}
+
+.hours span{
+
+color:#1fd1c1;
+
+}
+
+.footer-links{
+
+list-style:none;
+padding:0;
+
+}
+
+.footer-links li{
+
+margin-bottom:10px;
+font-size:14px;
+cursor:pointer;
+
+}
+
+.footer-links li:hover{
+
+color:#1fd1c1;
+
+}
+
+.footer-links a{
+
+margin-bottom:10px;
+font-size:14px;
+cursor:pointer;
+color: white;
+text-decoration: none;
+
+}
+
+.footer-links a:hover{
+
+color:#1fd1c1;
+
+}
+.text-primary-1{
+   color:#1fd1c1; 
+}
