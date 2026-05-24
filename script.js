@@ -12,14 +12,6 @@
       answer: "Simple individual returns can often be completed during your appointment. Complex returns may take 3-5 business days. We'll provide you with a timeline based on your specific situation and keep you updated throughout the process."
     },
     {
-      question: "What is included in Protection Plus?",
-      answer: "Protection Plus includes $1,000,000 Tax Audit Defense™ and Identity Theft Restoration services. If you receive a tax notice or audit, our expert team will handle all communications with the IRS and state tax authorities at no additional cost to you."
-    },
-    {
-      question: "Is Protection Plus included with all services?",
-      answer: "Yes! Protection Plus is automatically included at no additional cost when you file your tax return with us, whether it's an individual, business, or amended return. You get complete peace of mind with every filing."
-    },
-    {
       question: "Do you handle business tax returns?",
       answer: "Yes, we prepare all types of business returns including S-Corporations, C-Corporations, Partnerships (Form 1065), LLCs, and Sole Proprietorships. We also provide bookkeeping services and business consultation to help optimize your tax situation."
     },
